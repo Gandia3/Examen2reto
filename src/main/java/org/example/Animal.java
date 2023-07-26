@@ -2,13 +2,13 @@ package org.example;
 
 public class Animal {
 
-    String nombre;
-    String genero
-    double peso=true;
-    Animal pareja=new;
+    protected String nombre;
+    protected String genero;
+    protected double peso;
+    protected Animal pareja;
 
 
-    public Animal(String nombre, double peso) {
+    public Animal (String nombre, double peso) {
         this.nombre = nombre;
         this.peso = peso;
     }
@@ -17,9 +17,6 @@ public class Animal {
         this.pareja=pareja;
     }
 
-
-
-
-
-
+    public Animal() {
+    }
 }
